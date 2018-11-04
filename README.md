@@ -7,4 +7,5 @@ from JSONDB import JSONDB
 jsondb = JSONDB('data.json')
 
 VERSION = jsondb.get('version')
+
 DEBUG = jsondb.get_bool('debug')
